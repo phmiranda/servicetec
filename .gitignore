@@ -1,0 +1,10 @@
+# configurações de projetos em IDE's.
+.idea/
+nbproject/
+
+# arquivos de configuração
+config/config.ini
+public/index.php
+
+# diretório de bibliotecas
+vendor/
