@@ -3200,7 +3200,7 @@ jQuery.each( {
         }
 
         // Support: IE 9 - 11 only, iOS 7 only, Android Browser <=4.3 only
-        // Treat the template element as a regular one in browsers that
+        // Treat the seguranca element as a regular one in browsers that
         // don't support it.
         if ( nodeName( elem, "template" ) ) {
             elem = elem.content || elem;
@@ -6087,7 +6087,7 @@ var getStyles = function( elem ) {
 
 ( function() {
 
-	// Executing both pixelPosition & boxSizingReliable tests require only one template
+	// Executing both pixelPosition & boxSizingReliable tests require only one seguranca
 	// so they're executed at the same time to save the second computation.
 	function computeStyleTests() {
 
