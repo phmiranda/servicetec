@@ -14,12 +14,12 @@
     }
 
      // função de conexão com o banco
-    public function conectar($env){
+    public function conectar($config){
         // verifica se existe o arquivo de configurações do BD
-        if(file_exists("config/{$env}.ini")){
-            $db = parse_ini_file("config/{$env}.ini");
+        if(file_exists("config/{$config}.ini")){
+            $db = parse_ini_file("config/{$config}.ini");
         }else{
-            throw new Exception("O arquivo {$env} não foi encontrado para conexão com a base de dados.");
+            throw new Exception("O arquivo {$config} não foi encontrado para conexão com a base de dados.");
         }
 
         // faz a leitura das informações contida no arquivo de configuração
