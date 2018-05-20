@@ -4,7 +4,7 @@ nbproject/
 
 # arquivos de configuração
 config/config.ini
-public/index.php
+public/index-env.php
 
 # diretório de bibliotecas
 vendor/
