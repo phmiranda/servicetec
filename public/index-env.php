@@ -7,5 +7,5 @@
  */
 
 // configuração das 'libraries' da aplicação.
-$msg = "Bem vindo ao sistema de gestão de serviços técnicos de desenvolvimento de sistemas e informática.";
+$msg = "SERVICETEC - Setor de Design, Comunicação, Fábrica de Software e Infraestrutura";
 echo $msg;
