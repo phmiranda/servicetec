@@ -1,10 +1,12 @@
 # configurações de projetos em IDE's.
 .idea/
 nbproject/
+.vscode/
 
 # arquivos de configuração
 config/config.ini
-public/index-env.php
+public/index.php
+public/default.php
 
 # diretório de bibliotecas
 vendor/
