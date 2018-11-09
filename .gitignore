@@ -9,4 +9,7 @@ public/index.php
 public/default.php
 
 # diretório de bibliotecas
+composer.lock
+package-lock.json
 vendor/
+node_modules/
